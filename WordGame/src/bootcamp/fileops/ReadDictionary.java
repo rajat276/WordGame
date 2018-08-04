@@ -17,7 +17,7 @@ class WordList {
 
 public class ReadDictionary {
 
-	private final static String DEFAULT_DICTIONARY_FILE="/Users/righosh/Downloads/sowpods.txt";
+	private final static String DEFAULT_DICTIONARY_FILE="../sowpods.txt";
 
 	private static WordList getAllWords(String fileName) throws Exception {
 		WordList wordList=new WordList();
@@ -64,14 +64,15 @@ public class ReadDictionary {
 		}
 	}
 	
-	/*
 	
+	/*
 	public static void main(String a[]) {
 		ArrayList<ArrayList<String>>list=getWordList();
 		for(int i=0;i<=10;i++)
 			System.out.println(list.get(4).get(i)+" | "+list.get(5).get(i));
 	}
-*/
+	*/
+
 
 
 }
